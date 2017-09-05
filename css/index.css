@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+
+.left_head {
+    display: inline-block;
+    background-color: rgba(0,0,0,.15);
+    height: 100%;
+    position: absolute;
+    text-align: left;
+}
+
+.left_head .header_out_box {
+    padding: 0 50px;
+}
+
+.left_head .title h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 128px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    
+}
+
+.left_head .title h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 36px;
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.left_head .title p {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(255,255,255,.75);
+}
+
+.left_head .nav {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 300px;
+    margin-top: 65px;
+    border-top: 1px solid rgba(255,255,255,.5);
+}
+
+.left_head .nav li a {
+    margin-top: 65px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* BACK GROUND */
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
